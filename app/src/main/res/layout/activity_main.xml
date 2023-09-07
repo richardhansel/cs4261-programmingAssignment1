@@ -59,6 +59,24 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NeedToSignUp"
+        android:layout_below="@id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp"
+        android:text="Don't have an account yet?" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignUpBtn"
+        android:layout_below="@id/NeedToSignUp"
+        android:text="SIGN UP NOW!"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="0dp" />
 
 
 </RelativeLayout>
