@@ -59,6 +59,8 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp" />
 
+
+    <!-- Changed from "Don't have an account yet?" to "Forgot Username?" -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,14 +68,15 @@
         android:layout_below="@id/loginbtn"
         android:layout_centerHorizontal="true"
         android:layout_margin="0dp"
-        android:text="Don't have an account yet?" />
+        android:text="Forgot username?" />
 
+    <!-- Changed from "Sign Up Now! to this for temporary purposes. -->
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/SignUpBtn"
+        android:id="@+id/ShowLoginInfo"
         android:layout_below="@id/NeedToSignUp"
-        android:text="SIGN UP NOW!"
+        android:text="Show me registered names"
         android:backgroundTint="@color/design_default_color_on_secondary"
         android:layout_centerHorizontal="true"
         android:layout_margin="0dp" />
