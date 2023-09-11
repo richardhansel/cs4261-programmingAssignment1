@@ -81,5 +81,23 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="0dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstName"
+        android:layout_below="@id/ShowLoginInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="First Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastName"
+        android:layout_below="@id/firstName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Last Name" />
+
 
 </RelativeLayout>
